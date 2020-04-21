@@ -1,0 +1,128 @@
+[
+    {
+        "providerName": "Microsoft-Extensions-Logging",
+        "providerGuid": "3ac73b97-af73-50e9-0822-5da4367920d0",
+        "eventName": "FormattedMessage",
+        "formatString": "$FormattedMessage"
+    },
+    {
+        "providerName": "Microsoft-Extensions-Logging",
+        "providerGuid": "3ac73b97-af73-50e9-0822-5da4367920d0",
+        "eventName": "MessageJson",
+        "formatString": "$ArgumentsJson"
+    },
+    {
+        "providerName": "Microsoft-Extensions-Logging",
+        "providerGuid": "3ac73b97-af73-50e9-0822-5da4367920d0",
+        "eventName": "Message",
+        "formatString": "Log: $Payload"
+    },
+    {
+        "providerName": "Microsoft-Diagnostics-DiagnosticSource",
+        "providerGuid": "adb401e1-5296-51f8-c125-5fda75826144",
+        "eventName": "Message",
+        "formatString": "$Message"
+    },
+    {
+        "providerName": "Microsoft-Diagnostics-DiagnosticSource",
+        "providerGuid": "adb401e1-5296-51f8-c125-5fda75826144",
+        "eventName": "Activity1Start/Start",
+        "formatString": "$EventName - $Arguments"
+    },
+    {
+        "providerName": "Microsoft-AspNetCore-Server-Kestrel",
+        "providerGuid": "bdeb4676-a36e-5442-db99-4764e2326c7d",
+        "eventName": "ConnectionStart/Start",
+        "formatString": "Connected: $remoteEndPoint"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "Exception/Start",
+        "formatString": "Exception Thrown: $ExceptionType - $ExceptionMessage"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "ExceptionCatch/Start",
+        "formatString": "Exception Caught: $MethodName"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "Runtime/Start",
+        "formatString": "Started $Sku: $CommandLine"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "ThreadPoolWorkerThread/Start",
+        "formatString": "New worker $TID. Activer workers: $ActiveWorkerThreadCount"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "Loader/ModuleLoad",
+        "formatString": "Module $ModuleILFileName loaded"
+    },
+    {
+        "providerName": "Microsoft-Windows-WinINet",
+        "providerGuid": "43d1a55c-76d6-4f7e-995c-64c711e5cafe",
+        "eventName": "Task.WININET_REQUEST_HEADER",
+        "formatString": "Http request sent $FormattedMessage"
+    },
+    {
+        "providerName": "Microsoft-Windows-WinINet",
+        "providerGuid": "43d1a55c-76d6-4f7e-995c-64c711e5cafe",
+        "eventName": "Task.WININET_RESPONSE_HEADER",
+        "formatString": "Http response recieved "
+    },
+    {
+        "providerName": "Windows Kernel",
+        "providerGuid": "9e814aad-3204-11d2-9a82-006008a86939",
+        "eventName": "FileIO/Write",
+        "formatString": "File Write: $FileName"
+    },
+    {
+        "providerName": "Windows Kernel",
+        "providerGuid": "9e814aad-3204-11d2-9a82-006008a86939",
+        "eventName": "FileIO/Read",
+        "formatString": "File Read: $FileName"
+    },
+    {
+        "providerName": "Windows Kernel",
+        "providerGuid": "9e814aad-3204-11d2-9a82-006008a86939",
+        "eventName": "Process/DCStart",
+        "formatString": "Process start $CommandLine"
+    },
+    {
+        "providerName": "Microsoft-Windows-IIS-Logging",
+        "providerGuid": "7e8ad27f-b271-4ea2-a783-a47bde29143b",
+        "eventName": "task_0",
+        "formatString": "$csmethod $csuristem"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "GarbageCollection/IncreaseMemoryPressure",
+        "formatString": "Allocated $BytesAllocated (bytes)"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "GarbageCollection/DecreaseMemoryPressure",
+        "formatString": "Freed $BytesAllocated (bytes)"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "GC/HeapStats",
+        "formatString": "HeapStats $TotalHeapSize (objects)"
+    },
+    {
+        "providerName": "Microsoft-Windows-DotNETRuntime",
+        "providerGuid": "e13c0d23-ccbc-4e12-931b-d9cc2eee27e4",
+        "eventName": "GC/Start",
+        "formatString": "GC start for $Reason"
+    }
+]
